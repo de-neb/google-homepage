@@ -130,6 +130,7 @@ nav {
   color: #5f6368;
   padding: 0 16px;
   border-radius: 4px;
+  white-space: nowrap;
 }
 
 .ifl-btn {
@@ -140,6 +141,7 @@ nav {
   color: #5f6368;
   padding: 0 16px;
   border-radius: 4px;
+  white-space: nowrap;
 }
 
 .gs-btn:hover,
