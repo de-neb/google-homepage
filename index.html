@@ -4,45 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Google homepage</title>
   </head>
   <body>
-    <div class="nav-bar">
-      <nav>
-        <p>Gmail</p>
-        <p>Images</p>
-        <img
-          src="images/show-apps-button.svg"
-          class="apps"
-          alt="show-apps-button"
-        />
+    <nav>
+      <div class="nav1">
+        <a href="#" class="space-left"><p>About</p></a>
+        <a href="#" class="space-left"><p>Store</p></a>
+      </div>
+      <div class="nav2">
+        <a href="#"><p>Gmail</p></a>
+        <a href="#"><p>Images</p></a>
+        <a href="#"
+          ><img
+            src="images/show-apps-button.svg"
+            class="apps"
+            alt="show-apps-button"
+        /></a>
         <button class="in-btn">Sign In</button>
-      </nav>
-    </div>
+      </div>
+    </nav>
     <div class="ctn1">
       <img src="images/googlelogo.png" class="google-logo" alt="google-logo" />
     </div>
     <div class="ctn2">
-        <input type="text" name="search-bar" id="search-bar">
-        <button class="gs-btn">Google Search</button>
-        <button class="ifl-btn">I'm Feeling Lucky</button>
-        <p>Google offered in:</p>
-        <a href="#">Filipino</a>
-        <a href="#">Cebuano</a>
+      <div class="ctn2-1">
+        <div class="mag-con">
+          <img src="images/search.svg" alt="search-icon" id="search-icon" />
+        </div>
+        <input type="text" name="search-bar" id="search-bar" />
+        <div class="micro-con">
+          <img src="images/micro.png" alt="microphone-icon" id="microphone" />
+        </div>
+      </div>
+    </div>
+    <div class="ctn3">
+      <button class="gs-btn">Google Search</button>
+      <button class="ifl-btn">I'm Feeling Lucky</button>
     </div>
   </body>
 
-<footer>
+  <footer>
     <div class="footer">
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>About</li>
-            <li>How Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+      <ul class="ul1">
+        <li><a href="#">Advertising</a> </li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">How Search Works</a></li>
+      </ul>
+      <ul class="ul2">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
     </div>
-</footer>
+  </footer>
 </html>
