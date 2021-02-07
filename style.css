@@ -148,6 +148,8 @@ nav {
 .ifl-btn:hover {
   border: 1px solid rgba(133, 133, 133, 0.6);
   cursor: pointer;
+  background-color: #F6F6F6;
+  color: black
 }
 
 .footer {
